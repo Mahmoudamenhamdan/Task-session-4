@@ -1,0 +1,279 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.headar {
+    background-color: rgb(212, 27, 27);
+    color: aliceblue;
+}
+
+li {
+    float: left;
+    padding: 20px;
+    list-style: none;
+    font-size: 22px;
+}
+
+a {
+    background-color:rgb(0, 0, 0);
+    border-radius: 3px;
+}
+
+s {
+    background-color:  rgb(212, 27, 27);
+
+}
+img {
+    width: 50px;
+    margin: -10px;
+}
+
+
+li:hover {
+    background-color:blueviolet;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+.object {
+    background-image: url(./background.png);
+    background-position: center;
+    background-size:cover;
+    height:1000px;
+}
+
+.object p {
+    padding-top: 200px ;
+    text-align:center;
+    margin-bottom: -150px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.object a {
+
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.please h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 25px;
+}
+
+table {
+    width: 70%;
+    border-spacing:2px;
+    text-align: center;
+    margin-left: 200px;
+    border: 3px solid rgb(129, 9, 9);
+    border-style: ;
+    margin-bottom: 10px;
+}
+
+th {
+    background-color: aliceblue;
+    height:40px;
+    width: 70px;
+    border:2px solid rgb(129, 9, 9)
+}
+
+.line {
+    text-decoration: line-through;
+}
+
+td {
+    background-color: rgb(58, 23, 23);
+    width: 90px;
+    color: white;
+    padding: 20px;
+    height: 40px;
+    border:2px solid rgb(129, 9, 9)
+}
+
+.one td {
+    background-color: rgba(128, 128, 128, 0.397);
+    color: black;
+}
+
+.two td {
+    background-color:gray;
+}
+
+.three td {
+    background-color: rgba(128, 128, 128, 0.397);
+    color: black;
+}
+
+.four td {
+    background-color:gray;
+}
+
+.five td {
+    background-color: rgba(128, 128, 128, 0.397);
+    color: black;
+}
+
+.time h1 {
+    text-align: center;
+    font-size: 30px;
+    padding: 25px;
+}
+
+.panars {
+    background-image: url(./back2.jpg);
+    background-size: cover;
+    padding: 100px;
+}
+
+.html {
+    text-align: center;
+    background-color: grey;
+    background-size: 100px;
+    width: 305px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 60px;
+    border: 3px solid black;
+}
+.html p {
+    padding: 20px;
+}
+.html img {
+    width: 320px;
+    height: 110px;
+    padding: 10px;
+}
+
+.html button {
+    width: 300px;
+    height: 50px;
+    border: 2px black solid;
+    background-color: darkred;
+    font-size: 20px;
+}
+
+.css {
+    background-color: gray;
+    background-size:100px ;
+    width: 305px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 60px;
+    border: 3px solid black;
+}
+
+.css img {
+    width: 320px;
+    height: 110px;
+    padding: 10px;
+}
+
+.css p {
+    padding: 20px;
+}
+
+.css button {
+    background-color: darkred;
+    background-size: 100%;
+    width: 300px;
+    height: 50px;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+.java {
+    background-color: grey;
+    background-size: 100%;
+    width: 305px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 60px;
+    border: 3px solid black;
+}
+
+.java img {
+    width: 320px;
+    height: 110px;
+    padding: 10px;
+}
+
+.java p {
+    padding: 20px;
+}
+
+.java button {
+    background-color: darkred;
+    background-size: 100%;
+    width: 300px;
+    height: 50px;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+.php {
+    margin-top: 40px;
+    padding-top: 20px;
+    background-color: rgb(8, 71, 107);
+    background-size: 100%;
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 250px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.course img {
+    width: 150px;
+    height: 50x;
+}
+
+.course h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px
+}
+
+.course button {
+    background-color:darkred;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.sql {
+    margin-top: 40px;
+    padding-top: 20px;
+    background-color: orangered;
+    width: 400px;
+    background-size: 100%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    background-color:darkred;
+    color: black;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    font-size: 25px;
+}
